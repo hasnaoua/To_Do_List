@@ -1,0 +1,18 @@
+.container {
+    color: rgba(0, 0, 255, 0.705);
+    border-radius: 20pc;
+    text-align: center;
+}
+
+#title {
+    margin-bottom: auto;
+}
+
+.input {
+    border-radius: 20pc;
+    box-sizing: border-box;
+}
+
+.bottom {
+    box-sizing: border-box;
+}
