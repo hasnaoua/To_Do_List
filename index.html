@@ -6,18 +6,20 @@
     <link rel="stylesheet" href="style.css">
     <title>To Do: Lists</title>
 </head>
-<body>    
-    <div class="container">
-        <h1 id="title">
-            To Do: Lists
-        </h1> 
-        <input class="input"> 
-        </input>
-        <button class="button"> 
-        </button>
-        <ul>   
-        </ul>   
-    <div/>    
+<body class="container">
+    <header>
+        <h1 id="title">To Do: Lists</h1>
+    </header>
+    <main>
+        <div>
+            <input id="new-task" class="input" placeholder="Add a new task" aria-label="New task">
+            <button class="button" aria-label="Add task">Add Task</button>
+        </div>    
+        <ul id="task-list"></ul>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 To Do List App</p>
+    </footer>
     <script src="script.js" defer></script>
 </body>
 </html>

@@ -1,18 +1,60 @@
 .container {
-    color: rgba(0, 0, 255, 0.705);
-    border-radius: 20pc;
-    text-align: center;
+    color: white; 
+    border-radius: 10px; /* 10 pixels */
+    text-align: center; 
+    background-color: bisque;
+    font-size: auto;
+    width: auto;
+    height: auto;
+    display: block;
+    position: relative;
 }
 
 #title {
-    margin-bottom: auto;
+    margin-bottom: 5%; 
+    color: blue;
+    font-size: auto;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .input {
-    border-radius: 20pc;
-    box-sizing: border-box;
+    margin: 0;
+    border: none;
+    border-radius: 3px;
+    width: 60%; /* Augmenter la largeur */
+    height: 50px; /* Augmenter la hauteur */
+    font-size: 16px;
 }
 
-.bottom {
-    box-sizing: border-box;
+.button {
+    background-color: grey;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 10%; /* Augmenter la largeur */
+    height: 50px; /* Augmenter la hauteur */
+    margin: 0; /* Supprimer le padding entre les éléments */
+}
+    
+.button:hover {
+    background-color: violet;
+}
+
+footer {
+    /* Alignement du texte */
+    text-align: center;
+    /* Couleur de fond */
+    background-color: #f8f9fa;
+    /* Couleur du texte */
+    color: #6c757d;
+    /* Taille de la police */
+    font-size: 12px;
+    /* Marge intérieure */
+    padding: 5px;
+    /* Position */
+    position: fixed;
+    /* Largeur */
+    width: 100%;
+    /* Bas de la page */
+    bottom: 0;
 }
